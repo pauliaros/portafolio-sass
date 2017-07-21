@@ -1,0 +1,6 @@
+@media (max-width: 600px){
+	.seccion_uno{
+		background-color: $background_uno;
+		padding-top: $padding_media;
+	}
+}
