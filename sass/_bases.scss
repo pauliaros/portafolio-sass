@@ -1,1 +1,40 @@
+.navbar{
+    background-color: $navbar_color;
+}
+.descripcion-1{
+	p{
+		font-size: $parrafo_principal;
+		color:$color_descripciones;
+		line-height: $espacio_parrafo_principal;
+		padding-top: $padding-descripcion;
+	}
+}
 
+.responsive,
+.quality,
+.support{
+	h4{
+		font-family: $font-titulos;
+		color: $color-titulos;
+		font-size: $tamaño-titulos-s1;
+		font-weight: $negrita;
+	}
+	p{
+		color: $color_descripciones;
+		font-size: $descripcion;
+		
+
+	}
+	.icon-responsive{
+		color: $color-icon-responsive;
+		font-size: $tamaño-icon-s1;
+	}
+	.icon-quality{
+		color:$color-icon-quality;
+		font-size: $tamaño-icon-s1;
+	}
+	.icon-support{
+		color: $color-icon-support;
+		font-size: $tamaño-icon-s1;
+	}
+}
