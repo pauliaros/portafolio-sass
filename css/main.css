@@ -6773,7 +6773,16 @@ button.picker__today:focus, button.picker__clear:focus, button.picker__close:foc
   /*shape-rendering: crispEdges;*/ }
 
 .navbar {
-  background-color: transparent; }
+  background-color: #fff; }
+  .navbar li a {
+    color: #3c4858; }
+
+#nav-porta {
+  color: #fff; }
+
+section {
+  margin-left: 3%;
+  margin-right: 3%; }
 
 /*seccion1*/
 .descripcion-1 p {
@@ -6937,5 +6946,28 @@ button.picker__today:focus, button.picker__clear:focus, button.picker__close:foc
   font-size: 14px;
   padding-bottom: 60px;
   line-height: 27px; }
+
+.card-plan {
+  margin-left: 3%; }
+  .card-plan h6 {
+    font-size: 13px;
+    color: #999; }
+  .card-plan h1 {
+    font-size: 60px;
+    font-weight: bold;
+    color: #3c4858; }
+    .card-plan h1 .signo {
+      font-size: 21px;
+      top: -26px;
+      position: relative;
+      color: #999; }
+    .card-plan h1 .year {
+      font-size: 21px;
+      color: #999; }
+  .card-plan p {
+    font-size: 15px;
+    color: #999; }
+    .card-plan p b {
+      color: #3c4858; }
 
 /*# sourceMappingURL=main.css.map */

@@ -1,5 +1,16 @@
 .navbar{
-    background-color: $navbar_color;
+    background-color: $color-titulo-s2;
+    li a{
+    	color: $color-titulos;
+    }
+}
+
+#nav-porta{
+	color: $color-titulo-s2;
+}
+section{
+	margin-left: $margen-fondo;
+	margin-right: $margen-fondo;
 }
 /*seccion1*/
 .descripcion-1{
@@ -202,6 +213,7 @@
 .plan{
 	background-color: $color_fondo;
 	padding: $padding_s6;
+
 }
 
 .choose-plan{
@@ -219,4 +231,35 @@
 			padding-bottom: $padding-descripcion;
 			line-height: $espacio_parrafo_principal;
 		}
+}
+
+.card-plan{
+	margin-left: $margen-fondo;
+	h6{
+		font-size:$tamaño_profesion;
+		color: $color_descripciones;
+
+	}
+	h1{
+		font-size: $tamaño_num_plan;
+		font-weight:$negrita;
+		color: $color-titulos;
+		.signo{
+			font-size: $tamaño-titulos-s1;
+			top: $top_arriba;
+			position: $posicion-img;
+			color: $color_descripciones;
+		}
+		.year{
+			font-size: $tamaño-titulos-s1;
+			color: $color_descripciones;
+		}
+	}
+	p{
+		font-size:$tamaño_texto_card;
+		color: $color_descripciones;
+		b{
+			color:$color-titulos;
+		}
+	}
 }
