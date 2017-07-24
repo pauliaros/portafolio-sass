@@ -1,6 +1,7 @@
 .navbar{
     background-color: $navbar_color;
 }
+/*seccion1*/
 .descripcion-1{
 	p{
 		font-size: $parrafo_principal;
@@ -22,6 +23,7 @@
 	p{
 		color: $color_descripciones;
 		font-size: $descripcion;
+		padding-bottom: $padding-descripcion;
 		
 
 	}
@@ -36,5 +38,26 @@
 	.icon-support{
 		color: $color-icon-support;
 		font-size: $tamaño-icon-s1;
+	}
+}
+
+/*seccion2*/
+.city{
+	position:$posicion-img;
+	padding: $padding-descripcion;
+}
+
+.ciudad{
+	h4{
+		font-size: $titulo-s2;
+		color: $color-titulo-s2;
+		font-family: $font-titulos;
+		font-weight: $negrita;
+	}
+	p{
+		color:$color-titulo-s2;
+		font-size: $texto-descripcion-s2;
+		font-family: $font-descripcion;
+		
 	}
 }

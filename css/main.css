@@ -6775,6 +6775,7 @@ button.picker__today:focus, button.picker__clear:focus, button.picker__close:foc
 .navbar {
   background-color: transparent; }
 
+/*seccion1*/
 .descripcion-1 p {
   font-size: 17px;
   color: #999;
@@ -6792,7 +6793,8 @@ button.picker__today:focus, button.picker__clear:focus, button.picker__close:foc
 .quality p,
 .support p {
   color: #999;
-  font-size: 16px; }
+  font-size: 16px;
+  padding-bottom: 60px; }
 .responsive .icon-responsive,
 .quality .icon-responsive,
 .support .icon-responsive {
@@ -6808,5 +6810,20 @@ button.picker__today:focus, button.picker__clear:focus, button.picker__close:foc
 .support .icon-support {
   color: #18ad33;
   font-size: 70px; }
+
+/*seccion2*/
+.city {
+  position: relative;
+  padding: 60px; }
+
+.ciudad h4 {
+  font-size: 38px;
+  color: #fff;
+  font-family: "Roboto Slab", "Times New Roman", serif;
+  font-weight: bold; }
+.ciudad p {
+  color: #fff;
+  font-size: 17px;
+  font-family: "Roboto", sans-serif; }
 
 /*# sourceMappingURL=main.css.map */
